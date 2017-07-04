@@ -16,7 +16,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
     this.firstname= "SREEVANI";
     this.lastname = "NARAHARI";
-  this.title = "";
+  this.title = "HELLO";
   }
   //function logic  to  place  input values in title
   onclick(firstname:string, lastname:string){
