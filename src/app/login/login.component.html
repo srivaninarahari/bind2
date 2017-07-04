@@ -1,0 +1,17 @@
+<!--INPUT VALUES DISPLAYED IN TEXTBOX -->
+<body>
+<div>
+  <span> Firstname: </span>
+  <input type="text" placeholder="enter the name" [value]="firstname"  #first>
+
+ </div> <br>
+<div>
+  <span> Lastname: </span>
+  <input type="text" placeholder="enter the name"  [value]="lastname"  #last>
+   </div> 
+  <br>
+  <button (click)= "onclick(first.value, last.value)"> submit </button> <br>
+
+<!--title  will display here -->
+<h3> SUBMITED DETAILS ARE : {{title}}  </h3>
+</body>
